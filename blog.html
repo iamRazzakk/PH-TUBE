@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Content</title>
+    <style>
+        body {
+            background-color: #e0e0e0;
+        }
+
+        .collapse {
+            text-align: center;
+        }
+
+        .collapse-title {
+            font-size: larger;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">
+            Discuss the scope of var, let, and const
+        </div>
+        <div class="collapse-content">
+            <p>var has function-lavel scope and hoistis its declarations, let has block-level scope and hoists its
+                declarations and cosnt has block-level scope hoists its declarations., and requires an initial value
+                that can't be changed onece assigned. </p>
+        </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">
+            Tell us the use cases of null and undefined
+        </div>
+        <div class="collapse-content">
+            <p>Undefined is often a result of not assigning a value or accessing non-existent properties, while Null is
+                used to represent intentional absence or to reset a value to no value.</p>
+        </div>
+    </div>
+    <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">
+            What do you mean by REST API?
+        </div>
+        <div class="collapse-content">
+            <p>RESTful APIs are widely used in web development and are the basis for many web services and web APIs,
+                including those used in mobile app development, web applications, and other distributed systems. They
+                provide a simple and standardized way for clients to interact with server resources over the HTTP
+                protocol, making them highly interoperable and scalable.</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
